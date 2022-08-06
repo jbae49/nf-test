@@ -1,0 +1,13 @@
+{
+  "name": "test-nf3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "nf3": "file:../nightfall_3/cli/lib/nf3.mjs"
+}
