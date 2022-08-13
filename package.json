@@ -9,5 +9,9 @@
   },
   "author": "",
   "license": "ISC",
-  "nf3": "file:../nightfall_3/cli/lib/nf3.mjs"
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "chalk": "^5.0.1",
+    "nf3": "file:../nightfall_3/cli/lib/nf3.mjs"
+  }
 }

@@ -1,0 +1,41 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/18.5.0/bin/node /opt/homebrew/bin/yarn add bip39
+
+PATH: 
+  /Users/jbae/Downloads/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jbae/Downloads/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/jbae/.local/bin:/Users/jbae/Library/Python/3.10/bin:/Users/jbae/.foundry/bin:/Users/jbae/.local/bin:/Users/jbae/Library/Python/3.10/bin:/Users/jbae/.foundry/bin:/Users/jbae/.foundry/bin:/Users/jbae/.local/bin:/Users/jbae/Library/Python/3.10/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOTDIR: not a directory, scandir '/Users/jbae/Library/Caches/Yarn/v6/npm-nf3-0.0.0-b99805c3-dfc2-427a-ba44-19e4e843fefe-1659806140942/node_modules/nf3'
+
+npm manifest: 
+  {
+    "name": "test-nf3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.mjs",
+    "scripts": {
+      "start": "node index.mjs",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bip39": "^3.0.4",
+      "nf3": "file:../nightfall_3/cli/lib/nf3.mjs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

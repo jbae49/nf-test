@@ -1,0 +1,976 @@
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 | Starting migrations...
+deployer_1                 | ======================
+deployer_1                 | > Network name:    'blockchain1'
+deployer_1                 | > Network id:      1337
+deployer_1                 | > Block gas limit: 1000000000 (0x3b9aca00)
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 | 1_initial_migration.js
+deployer_1                 | ======================
+deployer_1                 | 
+deployer_1                 |    Deploying 'Migrations'
+deployer_1                 |    ----------------------
+deployer_1                 |    > transaction hash:    0x8312d53095db3c5dd8cae855404a597577013d6acaddaecdbba104e19d58e96d
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x62FF543Da9820d38027533A4834E324bA027dbEC
+deployer_1                 |    > block number:        44
+deployer_1                 |    > block timestamp:     1660135845
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.99741196
+deployer_1                 |    > gas used:            129402 (0x1f97a)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.00258804 ETH
+deployer_1                 | 
+deployer_1                 | - Saving migration to chain.
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Saving migration to chain.
+deployer_1                 |    > Saving artifacts
+deployer_1                 |    -------------------------------------
+deployer_1                 |    > Total cost:          0.00258804 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 | 2_deploy_upgradeable.js
+deployer_1                 | =======================
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 | 
+deployer_1                 |    Deploying 'Verifier'
+deployer_1                 |    --------------------
+deployer_1                 |    > transaction hash:    0x20fff63c40013c175b330377bc10b7ad28a08424d68a5b6e32ebf88d036646e6
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0xEd4334F5E0D46F89048F1d4D83AF296c0dc256a3
+deployer_1                 |    > block number:        48
+deployer_1                 |    > block timestamp:     1660135850
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.97410458
+deployer_1                 |    > gas used:            1123068 (0x1122fc)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.02246136 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Linking
+deployer_1                 |    -------
+deployer_1                 |    * Contract: Challenges <--> Library: Verifier (at address: 0xEd4334F5E0D46F89048F1d4D83AF296c0dc256a3)
+deployer_1                 | 
+deployer_1                 |    Deploying 'Poseidon'
+deployer_1                 |    --------------------
+deployer_1                 |    > transaction hash:    0xab3dac6c00db124edccb59bf89142255b7563723d31c063442492d1e8a744746
+deployer_1                 | - Blocks: 0            Seconds: 0
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x7bB9a9F6711Bd34b8DfA1FeA5574Cb5977A58606
+deployer_1                 |    > block number:        49
+deployer_1                 |    > block timestamp:     1660135851
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.92858086
+deployer_1                 |    > gas used:            2276186 (0x22bb5a)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.04552372 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Linking
+deployer_1                 |    -------
+deployer_1                 |    * Contract: MerkleTree_Stateless <--> Library: Poseidon (at address: 0x7bB9a9F6711Bd34b8DfA1FeA5574Cb5977A58606)
+deployer_1                 | 
+deployer_1                 |    Deploying 'MerkleTree_Stateless'
+deployer_1                 |    --------------------------------
+deployer_1                 |    > transaction hash:    0xfe744218522a80810493808f7fda486196f1700b9e447ce13a1670e12a027410
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x1C16EC9415434Dbd03B34fD9AF2764B220690ff7
+deployer_1                 |    > block number:        51
+deployer_1                 |    > block timestamp:     1660135854
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.90695238
+deployer_1                 |    > gas used:            1081424 (0x108050)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.02162848 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Linking
+deployer_1                 |    -------
+deployer_1                 |    * Contract: ChallengesUtil <--> Library: MerkleTree_Stateless (at address: 0x1C16EC9415434Dbd03B34fD9AF2764B220690ff7)
+deployer_1                 | 
+deployer_1                 |    Deploying 'Utils'
+deployer_1                 |    -----------------
+deployer_1                 |    > transaction hash:    0x9d7361af2db7a754f834d39710899d221e052eb7fb4a3adb764cf5275e88225b
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x1b7b13a4d587f75a96892Ef44966B9D7DBd1C186
+deployer_1                 |    > block number:        52
+deployer_1                 |    > block timestamp:     1660135855
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.8953278
+deployer_1                 |    > gas used:            581229 (0x8de6d)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.01162458 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Linking
+deployer_1                 |    -------
+deployer_1                 |    * Contract: State <--> Library: Utils (at address: 0x1b7b13a4d587f75a96892Ef44966B9D7DBd1C186)
+deployer_1                 | 
+deployer_1                 |    Deploying 'ChallengesUtil'
+deployer_1                 |    --------------------------
+deployer_1                 |    > transaction hash:    0x9e3d8518f0188468a9676e21668e33837a821fbeecab22a3d3ee0d26d1f6cf3b
+deployer_1                 | - Blocks: 0            Seconds: 0
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x442AD1C8E640a1aB30b5e0Ba200FC58f2ebABF7E
+deployer_1                 |    > block number:        53
+deployer_1                 |    > block timestamp:     1660135856
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.86419476
+deployer_1                 |    > gas used:            1556652 (0x17c0ac)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.03113304 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Linking
+deployer_1                 |    -------
+deployer_1                 |    * Contract: Challenges <--> Library: ChallengesUtil (at address: 0x442AD1C8E640a1aB30b5e0Ba200FC58f2ebABF7E)
+deployer_1                 | 
+deployer_1                 |    Deploying 'SimpleMultiSig'
+deployer_1                 |    --------------------------
+deployer_1                 |    > transaction hash:    0xf5d63b1bccb5cc788ce411ca3bae8db64d2499b034f78553c76027d907776dc4
+deployer_1                 | - Blocks: 0            Seconds: 0
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x7502ebf060D172EE26F80461020433Be8440F0dB
+deployer_1                 |    > block number:        55
+deployer_1                 |    > block timestamp:     1660135859
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.84303924
+deployer_1                 |    > gas used:            1057776 (0x1023f0)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.02115552 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'Proposers'
+deployer_1                 |    ---------------------
+deployer_1                 |    > transaction hash:    0xd57ffc5bb602a006c28cbcd34247cf5552d05862d12da178b86c076ee0b68ebe
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0xA6db2415C56363bfEB33D0e5C5fd19ccD734dbd5
+deployer_1                 |    > block number:        57
+deployer_1                 |    > block timestamp:     1660135861
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.8087268
+deployer_1                 |    > gas used:            1715622 (0x1a2da6)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.03431244 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'ProxyAdmin'
+deployer_1                 |    ----------------------
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > transaction hash:    0x32883ac8e7776f6847538b9a2acc04815b12d35b9e2765096f198d0e1a5efeea
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0xa9595A2e7C85Fe2674d6F34A25F7bF052D4AAdff
+deployer_1                 |    > block number:        58
+deployer_1                 |    > block timestamp:     1660135862
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.7990724
+deployer_1                 |    > gas used:            482720 (0x75da0)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.0096544 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'TransparentUpgradeableProxy'
+deployer_1                 |    ---------------------------------------
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > transaction hash:    0x5a36f72c0774026de759302aa3419d4cae2aa2ef7ed0a1d195326a3338691439
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x35F49C0237328eA42ce030Ad10e732a21a14d702
+deployer_1                 |    > block number:        60
+deployer_1                 |    > block timestamp:     1660135864
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.78530252
+deployer_1                 |    > gas used:            688494 (0xa816e)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.01376988 ETH
+deployer_1                 | 
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 | Warning: Potentially unsafe deployment of Challenges
+deployer_1                 | 
+deployer_1                 |     You are using the `unsafeAllow.external-library-linking` flag to include external libraries.
+deployer_1                 |     Make sure you have manually checked that the linked libraries are upgrade safe.
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'Challenges'
+deployer_1                 |    ----------------------
+deployer_1                 |    > transaction hash:    0x979b0539e98563a964eaf77136e2c6d8b1523dcb874d1222023bdb2df1978976
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x48c962afAC09cCaF20Eed0900AD00E3eC440be6d
+deployer_1                 |    > block number:        62
+deployer_1                 |    > block timestamp:     1660135867
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.70331914
+deployer_1                 |    > gas used:            4099169 (0x3e8c61)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.08198338 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'TransparentUpgradeableProxy'
+deployer_1                 |    ---------------------------------------
+deployer_1                 |    > transaction hash:    0x5daff4c80b751faf393759a3906a8bdfdc2f8f598023360d76bb76082c7a9198
+deployer_1                 | - Blocks: 0            Seconds: 0
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0xDBf07b36C1298e058C6714533da3262e20e19865
+deployer_1                 |    > block number:        63
+deployer_1                 |    > block timestamp:     1660135868
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.68985032
+deployer_1                 |    > gas used:            673441 (0xa46a1)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.01346882 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'Shield'
+deployer_1                 |    ------------------
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > transaction hash:    0xf45ee2d336e2f85556c4d1af04b0c02d2c7b14bbf872ff6493c15e94a7fde3f8
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x9F34Fe84BB91235a2357716e7A868359768FE3b7
+deployer_1                 |    > block number:        65
+deployer_1                 |    > block timestamp:     1660135870
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.62559376
+deployer_1                 |    > gas used:            3212828 (0x31061c)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.06425656 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'TransparentUpgradeableProxy'
+deployer_1                 |    ---------------------------------------
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > transaction hash:    0x881cce0166e8f89d1bc4305a7228a7073e38a08d322f2a09553710a6b98121d6
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x864D794aB771516ADbD058366E72ba697273EB53
+deployer_1                 |    > block number:        67
+deployer_1                 |    > block timestamp:     1660135872
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.61147942
+deployer_1                 |    > gas used:            705717 (0xac4b5)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.01411434 ETH
+deployer_1                 | 
+deployer_1                 | Warning: Potentially unsafe deployment of State
+deployer_1                 | 
+deployer_1                 |     You are using the `unsafeAllow.external-library-linking` flag to include external libraries.
+deployer_1                 |     Make sure you have manually checked that the linked libraries are upgrade safe.
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'State'
+deployer_1                 |    -----------------
+deployer_1                 |    > transaction hash:    0x17b2db6520e3280270721e9bbec8ab2b7d98ea2cdd9d06fba7b4e98198979979
+deployer_1                 | - Blocks: 0            Seconds: 0
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0xe1b7B854F19A2CEBF96B433ba30050D8890618ab
+deployer_1                 |    > block number:        69
+deployer_1                 |    > block timestamp:     1660135875
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.54887064
+deployer_1                 |    > gas used:            3130439 (0x2fc447)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.06260878 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'TransparentUpgradeableProxy'
+deployer_1                 |    ---------------------------------------
+deployer_1                 |    > transaction hash:    0x296bc0ea4d7f3c72f198fe8477d28f6f86313ee546bdcd999ecde51fb20512aa
+deployer_1                 | - Blocks: 0            Seconds: 0
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0xf05e9FB485502E5A93990C714560b7cE654173c3
+deployer_1                 |    > block number:        71
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+deployer_1                 |    > block timestamp:     1660135877
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.53406482
+deployer_1                 |    > gas used:            740291 (0xb4bc3)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.01480582 ETH
+deployer_1                 | 
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 | Max allowed deposit value for Test-Eth: 2500000000000000000000
+deployer_1                 | Max allowed withdraw value for Test-Eth: 10000000000000000000000
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 | Max allowed deposit value for MATIC: 2500000000000000000000
+deployer_1                 | Max allowed withdraw value for MATIC: 10000000000000000000000
+deployer_1                 | Max allowed deposit value for USDC: 250000000000
+deployer_1                 | Max allowed withdraw value for USDC: 1000000000000
+deployer_1                 | - Saving migration to chain.
+client1_1                  | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a State contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Shield contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Challenges contract instance will try again in 3 seconds
+optimist1_1                | warn: Unable to get a Proposers contract instance will try again in 3 seconds
+deployer_1                 |    > Saving migration to chain.
+deployer_1                 |    > Saving artifacts
+deployer_1                 |    -------------------------------------
+deployer_1                 |    > Total cost:          0.46250112 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 | 3_test_tokens_migration.js
+deployer_1                 | ==========================
+deployer_1                 | 
+deployer_1                 |    Deploying 'ERC20Mock'
+deployer_1                 |    ---------------------
+deployer_1                 |    > transaction hash:    0x69c204e7f7a4453bbb051438a4a7268ae8bec8d43e00ff9840dead028c29fb1d
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x9b7bD670D87C3Dd5C808ba627c75ba7E88aD066f
+deployer_1                 |    > block number:        79
+deployer_1                 |    > block timestamp:     1660135887
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.515006
+deployer_1                 |    > gas used:            630859 (0x9a04b)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.01261718 ETH
+deployer_1                 | 
+client1_1                  | info: queue 0 has been unpaused
+client1_1                  | info: queue 1 has been unpaused
+optimist1_1                | info: queue 0 has been unpaused
+optimist1_1                | info: queue 1 has been unpaused
+optimist1_1                | info: Start Queue
+deployer_1                 | 
+deployer_1                 |    Deploying 'ERC721Mock'
+deployer_1                 |    ----------------------
+deployer_1                 |    > transaction hash:    0x0f718393b1e33b1b95d38cf5c1ba65a1a9f9ac88840d01700cd8f79911cb7c83
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0xe721F2D97c58b1D1ccd0C80B88256a152d27f0Fe
+deployer_1                 |    > block number:        86
+deployer_1                 |    > block timestamp:     1660135895
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.48417172
+deployer_1                 |    > gas used:            1345358 (0x14874e)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.02690716 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 |    Deploying 'ERC1155Mock'
+deployer_1                 |    -----------------------
+deployer_1                 |    > transaction hash:    0x945fb69583f00f9336a0c6acc9d2c0c857abffed4d50eaa4e86cc9526f18173e
+deployer_1                 | - Blocks: 0            Seconds: 0
+deployer_1                 |    > Blocks: 0            Seconds: 0
+deployer_1                 |    > contract address:    0x4315287906f3FCF2345Ad1bfE0f682457b041Fa7
+deployer_1                 |    > block number:        88
+deployer_1                 |    > block timestamp:     1660135898
+deployer_1                 |    > account:             0x9C8B2276D490141Ae1440Da660E470E7C0349C63
+deployer_1                 |    > balance:             9999.45581466
+deployer_1                 |    > gas used:            1417853 (0x15a27d)
+deployer_1                 |    > gas price:           20 gwei
+deployer_1                 |    > value sent:          0 ETH
+deployer_1                 |    > total cost:          0.02835706 ETH
+deployer_1                 | 
+deployer_1                 | - Saving migration to chain.
+deployer_1                 |    > Saving migration to chain.
+deployer_1                 |    > Saving artifacts
+deployer_1                 |    -------------------------------------
+deployer_1                 |    > Total cost:           0.0678814 ETH
+deployer_1                 | 
+deployer_1                 | Summary
+deployer_1                 | =======
+deployer_1                 | > Total deployments:   19
+deployer_1                 | > Final cost:          0.53297056 ETH
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 | > nightfall-deployer@1.6.2 prestart /app
+deployer_1                 | > ./pre-start-script.sh
+deployer_1                 | 
+deployer_1                 | 
+deployer_1                 | > nightfall-deployer@1.6.2 start /app
+deployer_1                 | > node src/index.mjs
+deployer_1                 | 
+deployer_1                 | info: Blockchain Connecting on ws://blockchain1:8546...
+deployer_1                 | info: checking for zokrates_worker
+deployer_1                 | info: Blockchain Connected ...
+deployer_1                 | info: zokrates_worker reports that it is healthy
+worker_1                   | info: Received request to /vk
+worker_1                   | info: Received request to /vk
+worker_1                   | info: Received request to /vk
+worker_1                   | info: Received request to /vk
+deployer_1                 | info: deposit_stub.zok verification key exists: trusted setup skipped
+deployer_1                 | info: double_transfer_stub.zok verification key exists: trusted setup skipped
+deployer_1                 | info: single_transfer_stub.zok verification key exists: trusted setup skipped
+deployer_1                 | info: withdraw_stub.zok verification key exists: trusted setup skipped
+deployer_1                 | info: Registering verification key for deposit_stub.zok
+deployer_1                 | info: Registering verification key for double_transfer_stub.zok
+deployer_1                 | info: Registering verification key for single_transfer_stub.zok
+deployer_1                 | info: Registering verification key for withdraw_stub.zok
+deployer_1                 | info: Blockchain disconnected
+nightfall_3_deployer_1 exited with code 0
+optimist1_1                | info: Queueing event NewCurrentProposer, with transaction hash 0xa95807a5f2c5c7f159edbda910266c261915f8f271c9bd38e5aeef3fea24cf59 and priority 0
+optimist1_1                | info: Proposer Handler - Current proposer is 0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xdf85d2f8f603b355b585f59449bb8b2f94cdf44e9f703020343da3c54c4653cd and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x5734fb6b34b9c524a5375b619a14774765ddd5ca3b0115d42044f2e81fb76dbf and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xcccd1c27648ef7d7409ed7464dc2f855023472a84d4aa66892f3d34deb203612 and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x1e53fd70b988d98e1f1e4f0ac3c96aea9ef196782367276450b35d205b3b9974",
+optimist1_1                |   "leafCount": 0,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0xfccf842a136421a4e58a7cc20437e4c97ee1bd3aa1a02c80af6c31b0536cea81",
+optimist1_1                |     "0xa600a54c65dda133ab95e8a20b0b0ff06b75f45957ba696a5bc7174dc8cfaadd"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x4ffd878e41ed75f5e898736ac624c37e45c5f0093d770f70cb245d2f36763b2e",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x633fb62198208687f7f2f7e8b6dfbcfce460d5f1d8ffb4634d49c3f134dc90c6",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 0,
+optimist1_1                |   "previousBlockHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+optimist1_1                | }
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0xe1b59636104745e8d42ed9b30c64a63f06c43459e4855dccb1bb4013b1831f41 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0xe1b59636104745e8d42ed9b30c64a63f06c43459e4855dccb1bb4013b1831f41 and priority 0
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 0 and tx hash 0xe1b59636104745e8d42ed9b30c64a63f06c43459e4855dccb1bb4013b1831f41
+optimist1_1                | info: Block Checker - Block was valid
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x0d12840123fbfc731231f7c47c39c684c4a3411c54ae3e7b9107e8fa9fe96064 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xb095e147571e3501d7395cd466e9ff5616cb3609206a27162eef23cef3488c15 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x72c28189461ee190ae2bae6212d8644bc810d92349ccc86a70e7ed94ba875091 and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x23225430e1e21e1735f2347f37799d7d67dfb7b9a5f66f65554bb6760531aa9f",
+optimist1_1                |   "leafCount": 2,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x08d6c6e1904a6a54a12258de77f77199dd154c3b774c68c5e461ea058840ae51",
+optimist1_1                |     "0x4afe2a183d3df197af1a31e72e8bd2c09450bcac5dc6d6917b09279b378c21d9"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x363b34ac32fe21c27bfbd5d9f9ba37ef683f0f90fd3da35d3b853ea1f575a5de",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x8eadba1a43d7b7f906ec38356ed9b4b5df12386e8d6a29f38b80cd95f4b1817a",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 1,
+optimist1_1                |   "previousBlockHash": "0x633fb62198208687f7f2f7e8b6dfbcfce460d5f1d8ffb4634d49c3f134dc90c6"
+optimist1_1                | }
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x68ea1c3423ab2997c7bcd17247d7e180830f99b81000523c0cf88327b2545347 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x68ea1c3423ab2997c7bcd17247d7e180830f99b81000523c0cf88327b2545347 and priority 0
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+client1_1                  | info: Received Block Proposed event with layer 2 block number 1 and tx hash 0x68ea1c3423ab2997c7bcd17247d7e180830f99b81000523c0cf88327b2545347
+optimist1_1                | info: Received BlockProposed event
+optimist1_1                | info: Block Checker - Block was valid
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x163b81dc55629605c9c18a6b3f83de5906bc92f84e06a0506c76bb740433862b",
+optimist1_1                |   "leafCount": 4,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x37d576d2b117ca2836b5b0d7fd39878361bac116da0b1cc5b8943838d9d5953a",
+optimist1_1                |     "0xc38058f5e3d5f3a7de96f580a28810ac42b0400f4750c615c337407a189c6fb2"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x3197372e3332b7c0bfc27fa2ae06a5a1ebc831d293afabdd5adabedafbd8a789",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x3d2d2715a2dccddec985c4e5c355e792653fdbf5fe47ca4495a7232984e85388",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 2,
+optimist1_1                |   "previousBlockHash": "0x8eadba1a43d7b7f906ec38356ed9b4b5df12386e8d6a29f38b80cd95f4b1817a"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x9794d96013d09c82e512e94c0672c4066602302ec5a3cbf41e2e16e4fd710ffd and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x9794d96013d09c82e512e94c0672c4066602302ec5a3cbf41e2e16e4fd710ffd and priority 0
+client1_1                  | info: Received Block Proposed event with layer 2 block number 2 and tx hash 0x9794d96013d09c82e512e94c0672c4066602302ec5a3cbf41e2e16e4fd710ffd
+optimist1_1                | info: Received BlockProposed event
+optimist1_1                | info: Block Checker - Block was valid
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x7d6abea86ce6a713236a095671424690a71a7d6406f4db4ac8d37f221b7aa1a9 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x82affd2385f3f271f0a6a55478d1d840e1ac64c295f0a95a4b8fcc3751a0cb77 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x33af7632bd00c4384ac2f520f47460042857fadc75d059c14234b4432436ada5 and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x2be19b4331952a648baa25d05d6469b562b2566329dff0db18980903776daaae",
+optimist1_1                |   "leafCount": 6,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x068cc7af611920e98224ba865af27adca6153d984ced04fd42540dcd8238f8a0",
+optimist1_1                |     "0xf7aea0c1233bcb078e64da648cb58b62c32044bbe6b169af812916fd73bf6324"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0xfa3a313f3257da1b462d93fff553466e21f9aa1d04b684ae81ee714434a247b5",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x0a88359df210319c05cde23d2761c8b2236313be36ec8f8541339c2784d45458",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 3,
+optimist1_1                |   "previousBlockHash": "0x3d2d2715a2dccddec985c4e5c355e792653fdbf5fe47ca4495a7232984e85388"
+optimist1_1                | }
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x498c7d9e2cfc1afe31505c1111c418f641d3bc0a916217880f39084f6ffe49b6 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x498c7d9e2cfc1afe31505c1111c418f641d3bc0a916217880f39084f6ffe49b6 and priority 0
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 3 and tx hash 0x498c7d9e2cfc1afe31505c1111c418f641d3bc0a916217880f39084f6ffe49b6
+optimist1_1                | info: Block Checker - Block was valid
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+client1_1                  | info: Creating a deposit transaction
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x7eae9718f2e008c8e706f405e176a74535ca8b8228367fb117e819ad613a64f5 and priority 1
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x0ced20788d9ad6b5555f4c55db8a9d1809c34de30eb3baeea1c30300ad51ab13 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x6f7d468a507a4c8d9f6f0c3b74db5739640e0707a7071084e78b7369dbc6eb20 and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x0137452d8b875ac5c7977f0e2d79ad095247cde64a3c7cd692ee33e5d82ab3f9",
+optimist1_1                |   "leafCount": 8,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x6ef367fc9aaf3462b5a812dcc32b9ec2476c9bdc1539fa28683472b82011f88b",
+optimist1_1                |     "0x649e707eb878eda69679baa15a39f07e3fa2a3eaecac79bb1b5856192a5a619e"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0xe4fa51ec9510c6931c224fbe75894f448a82d225d81c978ad079c7564ed3ec69",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x06746217486cd18d2c6c9e14a82805a3f7dc9c0231c9f37cf1fccc0a2e59ebd2",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 4,
+optimist1_1                |   "previousBlockHash": "0x0a88359df210319c05cde23d2761c8b2236313be36ec8f8541339c2784d45458"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0xc67d8c2fa0722c26ca6afaee5780d0e4789e2b2942da10ca0649071e1bc8821f and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0xc67d8c2fa0722c26ca6afaee5780d0e4789e2b2942da10ca0649071e1bc8821f and priority 0
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 4 and tx hash 0xc67d8c2fa0722c26ca6afaee5780d0e4789e2b2942da10ca0649071e1bc8821f
+optimist1_1                | info: Block Checker - Block was valid
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x1a35896324c48ebfd2ae56e42a1519ff12410b4684dfa9b9db016a1faece8d05",
+optimist1_1                |   "leafCount": 10,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x516fe769ecf9eef310e184de8790d1df58d616a337166f5144cb8dfdbd4d01a9",
+optimist1_1                |     "0x53a72ac42f53602e953b9e36986fb58435db417cafce0cf6d2d35536627b02c9"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0xe6114b405dbafa29680c813aa8013d4e8c8facd00c200cfbe83907e95b701517",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x76388a49bd6f954b29bec4f0225888cfa12916a043adbf48a77974a486a30b34",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 5,
+optimist1_1                |   "previousBlockHash": "0x06746217486cd18d2c6c9e14a82805a3f7dc9c0231c9f37cf1fccc0a2e59ebd2"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x8c2ccdd5d6e551723cf9b8f05dd99423846ea0454f952f75e3c9741b6a91151c and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x8c2ccdd5d6e551723cf9b8f05dd99423846ea0454f952f75e3c9741b6a91151c and priority 0
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xcfc061e007542450127307e0a7089aa2ce21867b015f8988e09354270474b70e and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x546c41bb22bdb50ca907d21cde65526099da3fb487c289df4b1fed3ae0cefac6 and priority 1
+client1_1                  | info: Received Block Proposed event with layer 2 block number 5 and tx hash 0x8c2ccdd5d6e551723cf9b8f05dd99423846ea0454f952f75e3c9741b6a91151c
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Received BlockProposed event
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xee1ead34f05ab1ed5859db75f636a18961dc1e652d81f0c95ca524b3eeaa7563 and priority 1
+optimist1_1                | info: Block Checker - Block was valid
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x2fc7d702e865717ab855c8f1df420178fe89a40621f56feac76bea306134fd20",
+optimist1_1                |   "leafCount": 12,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x246ec1449990dbe489a461941789d2d7fba841e1b76504ec6050953c36cc5109",
+optimist1_1                |     "0xae88fb84aba5dfae20aa5ff112d88fd811e29e765d8fca3f55d4a44270dd819d"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x4fe533bf607a0c92e9a1afc48a44c921a62cd56b678f6d5cfac4ccf28083801f",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x75fe045f77f27f0acbd0bfb2b2435929d1bd388e1760fd87b959f258f9527cb1",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 6,
+optimist1_1                |   "previousBlockHash": "0x76388a49bd6f954b29bec4f0225888cfa12916a043adbf48a77974a486a30b34"
+optimist1_1                | }
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0xc77e01862beade95dcc76c65b6e299ed32f5035a53d5c46fe2bcc41662e93f9f and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0xc77e01862beade95dcc76c65b6e299ed32f5035a53d5c46fe2bcc41662e93f9f and priority 0
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 6 and tx hash 0xc77e01862beade95dcc76c65b6e299ed32f5035a53d5c46fe2bcc41662e93f9f
+optimist1_1                | info: Block Checker - Block was valid
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xfb2027de2b487d6be034f396f2086e1fc1be6c83b82382da1353cc9e5794ad4e and priority 1
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xe26265dcbbd9bbbee3c7a8a3ab86dd65b3b06a9e4a57fe78185df1c6da9aff2c and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x03b945b325db3c044b391f99b05f3357a8b8d362dc3bcd49a099d9be6f7f2242 and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x18f878333d5ac4a2ef46a8a91afd8be37b3db8059fbbdb4cb7cacbbb11afd7db",
+optimist1_1                |   "leafCount": 14,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x2cfd87cfa5fa861566163f29d6bc5b5281159df38b9f3668583377937456a426",
+optimist1_1                |     "0xe0af4fe6b469f1ba01c50eea51e3c90d5483e9edecf5c35d90cf95ef8bcc9979"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x9a39ff163cbec807c0bd9a74bf2d458b1f905a027a04f8fa42b6b7a378bf2f8b",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0xf211d99ac505aab245cd8e2d70cc97ebd5e7c049a489298ba3e28a82f50e9d19",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 7,
+optimist1_1                |   "previousBlockHash": "0x75fe045f77f27f0acbd0bfb2b2435929d1bd388e1760fd87b959f258f9527cb1"
+optimist1_1                | }
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x6ca0a4dfa1dcacc9d8e66035882d156be7b6df0fed44b994c98bff5432a0cdf2 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x6ca0a4dfa1dcacc9d8e66035882d156be7b6df0fed44b994c98bff5432a0cdf2 and priority 0
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 7 and tx hash 0x6ca0a4dfa1dcacc9d8e66035882d156be7b6df0fed44b994c98bff5432a0cdf2
+optimist1_1                | info: Block Checker - Block was valid
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x21eba0634c237c5952d5cb1f94af0d2be408e466ae405f4a4355e873da33b9ad",
+optimist1_1                |   "leafCount": 16,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x72c41f0e58b7907ca0e08b4c8cc631a03030783651070859c05a246a7d03db47",
+optimist1_1                |     "0xc245fbb043d6f78af2066ad1004e7a7ff053ab7b7d334831d24f9ec7a83eaca9"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0xb89f0a80004ceb83591a0f636aa14d5964eb1f486438208bea5beb256d49e3a0",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0xc0d479aef4325addc5518969782d19490d5976112e109e8dd264d158cdabd4e5",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 8,
+optimist1_1                |   "previousBlockHash": "0xf211d99ac505aab245cd8e2d70cc97ebd5e7c049a489298ba3e28a82f50e9d19"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x3008d6bdd81d0e99afcb20111b39b1b9d478706105e39dfda96c3bc966408aca and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x3008d6bdd81d0e99afcb20111b39b1b9d478706105e39dfda96c3bc966408aca and priority 0
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xc237e30ee0b6061c9059932e57df1b2c009b0ca5f35ae81d1fbf521bdd5ce5bb and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xb775ad7b7e401dda114c5e8de446822a500443392f526cda91bdfc4473097483 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 8 and tx hash 0x3008d6bdd81d0e99afcb20111b39b1b9d478706105e39dfda96c3bc966408aca
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x83f0c3e8c971620db5348fcded861221c52f588d35934698bd6066f842263726 and priority 1
+optimist1_1                | info: Block Checker - Block was valid
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x0d725c763add1b4138d986a10bb8542c5e23e6edd9caad872e32c6701952ca84",
+optimist1_1                |   "leafCount": 18,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0xaa38ab4f359b44cf78411a623dd2b975d1257d616b742a3fed9652fda23b1226",
+optimist1_1                |     "0xd554078020c5fd1e575c182c957848dfa27e5bfd5f08c17c007f643895d5343f"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0xf210d8467ceebe00b3b4350fe8c69559c051b9139ad820cc2a3afb79d25b59d9",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x6438068b917bba55414dce1f9a58d77afada18f810de5ffa63a9f98e360aa7e5",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 9,
+optimist1_1                |   "previousBlockHash": "0xc0d479aef4325addc5518969782d19490d5976112e109e8dd264d158cdabd4e5"
+optimist1_1                | }
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x9af282ba17f4527140ec03b240e7b186753f5bd5b846f39deb2d6607e8cbd8b9 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x9af282ba17f4527140ec03b240e7b186753f5bd5b846f39deb2d6607e8cbd8b9 and priority 0
+client1_1                  | info: Received Block Proposed event with layer 2 block number 9 and tx hash 0x9af282ba17f4527140ec03b240e7b186753f5bd5b846f39deb2d6607e8cbd8b9
+optimist1_1                | info: Received BlockProposed event
+optimist1_1                | info: Block Checker - Block was valid
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xe1c575ec06aee6740511ab152abd99542afff3bbf9576c7cade87250af6e6150 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x9b426a110bfb30ccc54e9d6a47d877a1c740cbc6510b8abc1896b26c2afe4791 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xac97f61886f489549518d93559f11d665964b5a9815ba26d4b3acae21de9a32b and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x1f361fb36243d6dcd282fc1ddae6279f638cd4393b4b781b8ee132fe248b1aed",
+optimist1_1                |   "leafCount": 20,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x8b4cfeb3b0558b62a925ad7b9365ac033f09ec544ca989a12c4cfce58655775a",
+optimist1_1                |     "0x00ff441272654537811ccca7241fe12ccd458227dbb623189ee40574f11eb989"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0xfdc21b91f8307ec8d769451985dd22c9d2f79046aba3cc50733c4d0d062e7af2",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x94af577661f1601b0671bb875f9ec1e747e10a03aef02c77f261e91714a2adce",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 10,
+optimist1_1                |   "previousBlockHash": "0x6438068b917bba55414dce1f9a58d77afada18f810de5ffa63a9f98e360aa7e5"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x2052d8d77c68c76e36a2ad088b1899ce536018beba45e4d0b2d06d65ec94aab5 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x2052d8d77c68c76e36a2ad088b1899ce536018beba45e4d0b2d06d65ec94aab5 and priority 0
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 10 and tx hash 0x2052d8d77c68c76e36a2ad088b1899ce536018beba45e4d0b2d06d65ec94aab5
+optimist1_1                | info: Block Checker - Block was valid
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x0090c9a0d08398ddf2e5b861154511a615a010d64ef1f41b417f9448a1bcf147",
+optimist1_1                |   "leafCount": 22,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0xceacf10f79e9ec645d9ff25a7ec11d47feb3ef0ed8da47f3952c45bb2df8417a",
+optimist1_1                |     "0x5e30c127ef020772a33b7b5041816007368297ab297b10f939b1954c406a6a62"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x398a0672e932fe02d55c530d3d186f18591d28cc57dff73a1177738eb9679b9e",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0xcc8bd1045145b516aa96cb312a68be22da337de050085090cdf4ccb97c01c3a9",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 11,
+optimist1_1                |   "previousBlockHash": "0x94af577661f1601b0671bb875f9ec1e747e10a03aef02c77f261e91714a2adce"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x94001f6c1052c5b433f8900142956c8fa9be487d2535ce855dc5c22721e9e007 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x94001f6c1052c5b433f8900142956c8fa9be487d2535ce855dc5c22721e9e007 and priority 0
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 11 and tx hash 0x94001f6c1052c5b433f8900142956c8fa9be487d2535ce855dc5c22721e9e007
+optimist1_1                | info: Block Checker - Block was valid
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xef14b77a6f7639e1cc116b013416a891679788aa9d14b12812e0dd1f8061e9ff and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x8055d4904faa329ba665fd79fd134e2676ddf897941bab350361c4ff627a0628 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x3942d275f50c42084f3abeec0b18a772572444e359628f7708665977f1fdb96d and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x1f3117595bc1c7ce5cff08d694a929f1a757a33a234787473f1db7289ac44ad9",
+optimist1_1                |   "leafCount": 24,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0xd9eabf9e5b45068452d3999a7da004775a83c546ccbebb9f913129ffdd8d8dd5",
+optimist1_1                |     "0x0308f419bc3a2b973f54029f7e4dd75f8d221f03db013065acf354e167294e06"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0xf326d8cd88d1ca1a7034f0cbdd18f1689be719d86a0c586fcbf4ac7120439ace",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x7046fab697b4ebbc9429d18ad80f7440aa616549caf801c103d7f4260bb9fef7",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 12,
+optimist1_1                |   "previousBlockHash": "0xcc8bd1045145b516aa96cb312a68be22da337de050085090cdf4ccb97c01c3a9"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x86e612185cf4c771b1657da7643a38290dc4cc0aa21053717b40ebf974ed84f0 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x86e612185cf4c771b1657da7643a38290dc4cc0aa21053717b40ebf974ed84f0 and priority 0
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 12 and tx hash 0x86e612185cf4c771b1657da7643a38290dc4cc0aa21053717b40ebf974ed84f0
+optimist1_1                | info: Block Checker - Block was valid
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0xf1144815e3a27e7ef585d72b19429e21da86271df0007cb7d0d0dba75a074013 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x557253215d796870ee92f1903895b6b1fdd2ca16cdc4bca1a55477b78bde52b4 and priority 1
+client1_1                  | info: Creating a deposit transaction
+worker_1                   | info: Compute witness...
+worker_1                   | info: Generate proof...
+worker_1                   | info: Complete
+optimist1_1                | info: Queueing event TransactionSubmitted, with transaction hash 0x24bae02486afd17e958a66a6933790b26061a0aac316321fee6952a06a85e8a2 and priority 1
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x2a94158c1f763f08cc63bedc7ec7cabf5ab5d0ab84acd6bdda7e7ecb82582619",
+optimist1_1                |   "leafCount": 26,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x527a9fb935ea9c43127493de418eedbecd718b72502c6e6164684ebf8348d605",
+optimist1_1                |     "0x8f0ec60293eb4fddd6397ce296c284e762b30194e2c36f992bf2fa47fd2e7ac0"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x96e17c915294554cee6c613ef6a04782f353ee6526872983153e5de8f65ea650",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x08e95b56a48e26d9711dcf91dbc0b2ac8a45beb78e49fb757dc972f5b6bf0d2a",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 13,
+optimist1_1                |   "previousBlockHash": "0x7046fab697b4ebbc9429d18ad80f7440aa616549caf801c103d7f4260bb9fef7"
+optimist1_1                | }
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0xc827bc07778cb44bd653782ac546ad66fd98d13cee6fc33cc719f83dcadd7761 and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0xc827bc07778cb44bd653782ac546ad66fd98d13cee6fc33cc719f83dcadd7761 and priority 0
+optimist1_1                | info: Transaction Handler - New transaction received.
+optimist1_1                | info: Transaction checks passed
+optimist1_1                | info: Received BlockProposed event
+client1_1                  | info: Received Block Proposed event with layer 2 block number 13 and tx hash 0xc827bc07778cb44bd653782ac546ad66fd98d13cee6fc33cc719f83dcadd7761
+optimist1_1                | info: Block Checker - Block was valid
+optimist1_1                | info: Block Assembler - New Block created, {
+optimist1_1                |   "root": "0x0f8e578ffa6dc06d56d46f85707d1fc4c9052aafe20b042e3076a1a2142af295",
+optimist1_1                |   "leafCount": 28,
+optimist1_1                |   "transactionHashes": [
+optimist1_1                |     "0x360ab2b19236cca6adebca1da1acf49e94fe0f3560937b06a104d9c4b75a2bd8",
+optimist1_1                |     "0xf90d216bf31c17977893541c79c55d74a77a50c66ad67d089e82fbad943cd069"
+optimist1_1                |   ],
+optimist1_1                |   "transactionHashesRoot": "0x5ef07f2df209ad44d9bc43629bbe31628cd61818065932338b76d4f4861a2fb0",
+optimist1_1                |   "proposer": "0xfeEDA3882Dd44aeb394caEEf941386E7ed88e0E0",
+optimist1_1                |   "blockHash": "0x017def033b8ef2520a7bf5a94cdbb487f69e6b3d9538d2062c712125e47f26d3",
+optimist1_1                |   "nCommitments": 2,
+optimist1_1                |   "blockNumberL2": 14,
+optimist1_1                |   "previousBlockHash": "0x08e95b56a48e26d9711dcf91dbc0b2ac8a45beb78e49fb757dc972f5b6bf0d2a"
+optimist1_1                | }
+optimist1_1                | info: Queueing event BlockProposed, with transaction hash 0x5a9b5a7e70a6b4433e7b9dfd1c61bebbf4dce9ccbc66db767143334261080b1e and priority 0
+client1_1                  | info: Queueing event BlockProposed, with transaction hash 0x5a9b5a7e70a6b4433e7b9dfd1c61bebbf4dce9ccbc66db767143334261080b1e and priority 0
+client1_1                  | info: Received Block Proposed event with layer 2 block number 14 and tx hash 0x5a9b5a7e70a6b4433e7b9dfd1c61bebbf4dce9ccbc66db767143334261080b1e
+optimist1_1                | info: Received BlockProposed event
+optimist1_1                | info: Block Checker - Block was valid
